@@ -608,7 +608,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		Position = UDim2.new(0.5, 0, 0, 0),
 		BackgroundTransparency = 1
 	}), {
-		AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://90369054156879"), {
+		AddThemeObject(SetProps(MakeElement("Image", ""rbxassetid://7072725342""), {
 			Position = UDim2.new(0, 9, 0, 6),
 			Size = UDim2.new(0, 18, 0, 18)
 		}), "Text")
@@ -738,8 +738,8 @@ function OrionLib:MakeWindow(WindowConfig)
 
 	local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0, 10, "rbxassetid://136418097442147"), {
 		Parent = Orion,
-		Position = UDim2.new(0.5, -307, 0.5, -172),
-		Size = UDim2.new(0, 615, 0, 344),
+		Position = UDim2.new(0.5, -360, 0.5, -210)
+        Size = UDim2.new(0, 720, 0, 420),
 		ClipsDescendants = true
 	}), {
 		SetChildren(SetProps(MakeElement("TFrame"), {
